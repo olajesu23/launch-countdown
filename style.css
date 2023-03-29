@@ -1,0 +1,80 @@
+@media only screen and (min-width: 488px) {
+.soon{
+    /* margin-top: 150px; */
+    /* font-size: 30px; */
+    text-align: center;
+
+}
+
+}
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    
+    background-image: url(./image/bg-stars.svg);
+    background-color: hsl(236, 21%, 26%);
+    color: white;
+    height: 1000px;
+    
+}
+.wrapper{
+    /* margin-top: 200px; */
+}
+
+.soon{
+    
+    text-align: center;
+    padding-top: 200px;
+    font-size: 35px;
+    word-spacing: 18px;
+    /* word-break: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.number{
+    display: flex;
+    padding-left: 35%;
+    padding-top: 150px;
+    color: hsl(345, 95%, 68%);
+    gap: 55px;
+    font-size: 400%;
+}
+.number h2{
+    border: 40px solid hsl(237, 18%, 59%);
+    background-color: hsl(237, 18%, 59%);
+    border-radius: 15px;
+    
+}
+.time{
+    display: flex;
+    padding-left: 38%;
+    padding-top: 15px;
+    color: hsl(345, 95%, 68%);
+    gap: 130px;
+    font-size: large;
+    font-family: helvetica;
+}
+.pages{
+    display: flex;
+    gap: 40px;
+    padding-left: 50%;
+    padding-top: 30px;
+    background-image: url(./image/pattern-hills.svg);
+    height: 180px;
+    margin-top: 250px;
+}
+.pages img{
+    text-align: center;
+    gap: 120px;
+    padding-top: 20px;
+    font-size: larger;
+}
